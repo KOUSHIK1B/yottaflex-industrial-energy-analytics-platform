@@ -1,0 +1,11 @@
+recommendation_id,machine_name,category,title,priority,expected_savings_kwh,estimated_savings_usd,capex_usd,payback_months,status
+REC-2026-000001,Central Rotary Screw Compressor #1,COMPRESSED_AIR_LEAK,Rotary Screw Compressor #1 VFD Retrofit & Acoustic Leak Audit,HIGH,287162,42500,18500,5.2,APPROVED
+REC-2026-000002,Central Rotary Screw Compressor #2,COMPRESSED_AIR_LEAK,Rotary Screw Compressor #2 Intelligent Trim Sequencer,HIGH,259459,38400,14200,4.4,APPROVED
+REC-2026-000003,Continuous Thermal Curing Oven,TARIFF_LOAD_SHIFT,Continuous Thermal Curing Oven Pre-Heating Load Shift,HIGH,235472,34850,9200,3.2,APPROVED
+REC-2026-000004,Batch Heat Treatment Oven,THERMAL_HEAT_RECOVERY,Batch Heat Treatment Oven Exhaust Heat Exchanger Recovery,HIGH,193243,28600,16000,6.7,APPROVED
+REC-2026-000005,Water-Cooled Central Chiller #1,CHILLER_OPTIMIZATION,Chiller Plant #1 Chilled Water Reset & Condenser Fan VFD Optimization,HIGH,179054,26500,12500,5.7,NEW
+REC-2026-000006,Water-Cooled Central Chiller #2,CHILLER_OPTIMIZATION,Chiller Plant #2 Variable Primary Pumping Loop Conversion,MEDIUM,151351,22400,11000,5.9,REVIEWED
+REC-2026-000007,Hydraulic Injection Molder 350T,STANDBY_REDUCTION,Hydraulic Injection Molder 350T Automated Standby Sleep Mode,MEDIUM,99662,14750,4800,3.9,REVIEWED
+REC-2026-000008,Heavy Stamping Press 500T,PEAK_LOAD_SHAVING,Stamping Press 500T Flywheel Soft-Start & Staggered Sequencing,MEDIUM,80405,11900,3500,3.5,APPROVED
+REC-2026-000009,5-Axis CNC Milling Center Alpha,MAINTENANCE_TUNING,5-Axis CNC Milling Center Spindle Bearing Tuning & Coolant Interlock,LOW,36813,5448.32,2200,4.8,NEW
+REC-2026-000010,Main Overhead Conveyor Loop,STANDBY_REDUCTION,Main Facility Overhead Conveyor Variable Speed Sleep Sensor,LOW,23648,3500,1500,5.1,APPROVED

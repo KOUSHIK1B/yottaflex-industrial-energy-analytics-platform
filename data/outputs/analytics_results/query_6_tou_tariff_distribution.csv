@@ -1,0 +1,5 @@
+period_type,rate_per_kwh_usd,total_reading_intervals,total_energy_kwh,total_spend_usd,pct_of_total_cost,pct_of_total_kwh
+ON_PEAK,0.225,1516,295279.75,66437.94,38.1,19.84
+SHOULDER,0.128,2304,455713.62,58331.34,33.45,30.62
+OFF_PEAK,0.065,4800,733010.75,47645.7,27.32,49.25
+CRITICAL_PEAK,0.45,20,4375.93,1969.17,1.13,0.29

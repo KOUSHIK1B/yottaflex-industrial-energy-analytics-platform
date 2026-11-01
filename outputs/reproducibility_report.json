@@ -1,0 +1,117 @@
+{
+  "report_title": "YottaFlex Reproducibility & Determinism Verification Report",
+  "report_provenance": "Historical report from a Python 3.11/Linux run; not rerun in the current Python 3.13 repair.",
+  "audit_timestamp_utc": "2026-11-01 10:37:15",
+  "run_1_status": "SUCCESS",
+  "run_2_status": "SUCCESS",
+  "seed_used": 20261022,
+  "environment": {
+    "platform": "linux",
+    "python_version": "3.11.2",
+    "sqlite_isolation": "Isolated temporary databases with explicit WAL checkpoint and connection close"
+  },
+  "files_compared": [
+    "production_batches",
+    "weather_observations",
+    "energy_readings",
+    "anomaly_ground_truth",
+    "recommendations",
+    "database_tables"
+  ],
+  "row_counts": {
+    "plants": {
+      "run_1_count": 1,
+      "run_2_count": 1,
+      "expected_count": 1,
+      "match": true
+    },
+    "meters": {
+      "run_1_count": 20,
+      "run_2_count": 20,
+      "expected_count": 20,
+      "match": true
+    },
+    "machines": {
+      "run_1_count": 16,
+      "run_2_count": 16,
+      "expected_count": 16,
+      "match": true
+    },
+    "assignments": {
+      "run_1_count": 16,
+      "run_2_count": 16,
+      "expected_count": 16,
+      "match": true
+    },
+    "shifts": {
+      "run_1_count": 3,
+      "run_2_count": 3,
+      "expected_count": 3,
+      "match": true
+    },
+    "tariffs": {
+      "run_1_count": 4,
+      "run_2_count": 4,
+      "expected_count": 4,
+      "match": true
+    },
+    "weather_obs": {
+      "run_1_count": 2160,
+      "run_2_count": 2160,
+      "expected_count": 2160,
+      "match": true
+    },
+    "batches": {
+      "run_1_count": 2000,
+      "run_2_count": 2000,
+      "expected_count": 2000,
+      "match": true
+    },
+    "readings": {
+      "run_1_count": 172820,
+      "run_2_count": 172820,
+      "expected_count": 172820,
+      "match": true
+    },
+    "maintenance_events": {
+      "run_1_count": 84,
+      "run_2_count": 84,
+      "expected_count": 84,
+      "match": true
+    },
+    "idle_periods": {
+      "run_1_count": 479,
+      "run_2_count": 479,
+      "expected_count": 479,
+      "match": true
+    },
+    "ground_truth": {
+      "run_1_count": 125,
+      "run_2_count": 125,
+      "expected_count": 125,
+      "match": true
+    },
+    "recommendations": {
+      "run_1_count": 10,
+      "run_2_count": 10,
+      "expected_count": 10,
+      "match": true
+    }
+  },
+  "matching_checksums": {
+    "batches": "677c23c8a247bc0fbab21384ddff9b3058e3c4aae58b0b2622db824a69d2f2ef",
+    "weather_obs": "f7dae7f488b0625f8fa3b0abb6a4f20d84f2c8e840921d80fade3b426ba04e3c",
+    "readings": "49d78dba1ceb15ff924e4e9ec156b24459e5235cc35e53c0354fd0c50cc32404",
+    "ground_truth": "ab1f270a957f07ae9cb6e95759cae897f8da33d47544b380e7f23980fe45d26d",
+    "recommendations": "4f3236785ac2e1ee1b8dcbfc4fc993a2f94c05349dda9c7bd28c3984d5981209"
+  },
+  "mismatched_checksums": [],
+  "database_integrity": {
+    "run_1_valid": true,
+    "run_2_valid": true,
+    "original_db_preserved": true,
+    "cleanup_successful": true
+  },
+  "checks_passed": "30/30",
+  "overall_reproducibility_result": "SUCCESS"
+}

@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+database/_repro_temp/
+database/_test_temp/
+yottaflex-industrial-energy-analytics-platform.zip
+yottaflex-industrial-energy-analytics-platform.zip

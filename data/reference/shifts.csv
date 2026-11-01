@@ -1,0 +1,4 @@
+shift_id,plant_id,name,start_time_local,end_time_local,duration_hours,standard_manning_level,shift_multiplier
+SHF-001,PLT-001,Morning Production Shift,06:00:00,14:00:00,8.0,42,1.05
+SHF-002,PLT-001,Afternoon Peak Shift,14:00:00,22:00:00,8.0,38,1.0
+SHF-003,PLT-001,Night Low-Energy Shift,22:00:00,06:00:00,8.0,18,0.85

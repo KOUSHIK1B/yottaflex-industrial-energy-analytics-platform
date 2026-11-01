@@ -1,0 +1,4 @@
+priority,total_recommendations,total_potential_kwh_saved,total_potential_annual_savings_usd,total_implementation_cost_usd,weighted_payback_months
+HIGH,5,1154390,170850,70400,4.9
+MEDIUM,3,331418,49050,19300,4.7
+LOW,2,60461,8948.32,3700,5

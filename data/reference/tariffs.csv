@@ -1,0 +1,5 @@
+tariff_id,plant_id,tariff_code,name,period_type,rate_per_kwh_usd,demand_charge_per_kw_usd,start_hour,end_hour,is_weekend_applicable,effective_from,effective_to
+TAR-2026-001,PLT-001,TOU-OFFPEAK-LV,Off-Peak Base Power Tariff,OFF_PEAK,0.065,5.0,22,7,1,2026-01-01,2026-12-31
+TAR-2026-002,PLT-001,TOU-SHOULDER-LV,Shoulder Commercial Tariff,SHOULDER,0.128,10.0,7,13,0,2026-01-01,2026-12-31
+TAR-2026-003,PLT-001,TOU-ONPEAK-LV,On-Peak High Demand Tariff,ON_PEAK,0.225,18.5,13,19,0,2026-01-01,2026-12-31
+TAR-2026-004,PLT-001,TOU-CRITPEAK-LV,Critical Peak Summer Event Tariff,CRITICAL_PEAK,0.45,25.0,14,18,0,2026-06-01,2026-09-30

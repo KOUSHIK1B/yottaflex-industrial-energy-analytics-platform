@@ -1,0 +1,4 @@
+shift_id,shift_name,start_time_local,end_time_local,batches_processed,total_units_produced,machine_production_kwh,machine_production_cost_usd,facility_shift_kwh,facility_shift_cost_usd,total_shift_kwh,total_shift_cost_usd,shift_energy_intensity
+SHF-002,Afternoon Peak Shift,14:00:00,22:00:00,879,567311,175006.12,24944.97,526986.99,84233.6,526986.99,84233.6,0.9289
+SHF-001,Morning Production Shift,06:00:00,14:00:00,840,540096,175616.86,22257.6,542046.54,62893.03,542046.54,62893.03,1.0036
+SHF-003,Night Low-Energy Shift,22:00:00,06:00:00,281,180547,63251.76,4111.37,419346.53,27257.52,419346.53,27257.52,2.3226

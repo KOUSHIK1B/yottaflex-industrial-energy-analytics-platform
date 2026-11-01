@@ -1,0 +1,2 @@
+plant_id,name,industry_type,country,state,city,timezone,grid_connection_voltage_kv,contracted_peak_capacity_kw,created_at
+PLT-001,YottaFlex Precision Metals & Robotics Plant #1,Precision Metals & Robotics Manufacturing,USA,TX,Austin,America/Chicago,13.8,2500.0,2026-01-01 00:00:00

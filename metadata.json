@@ -1,0 +1,6 @@
+{
+  "name": "YottaFlex Industrial Energy Analytics Platform",
+  "description": "Enterprise-grade industrial IoT energy telemetry, tariff optimization, anomaly detection, and validation engine for manufacturing plants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

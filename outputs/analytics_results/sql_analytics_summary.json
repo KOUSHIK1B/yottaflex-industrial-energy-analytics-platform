@@ -1,0 +1,183 @@
+{
+  "total_queries": 10,
+  "successful_queries": 10,
+  "queries": [
+    {
+      "query_number": 1,
+      "title": "Top 10 Energy-Consuming Machines & Specific Energy Consumption (SEC)",
+      "slug": "top_consuming_machines",
+      "row_count": 16,
+      "columns": [
+        "machine_id",
+        "machine_name",
+        "category",
+        "rated_power_kw",
+        "total_energy_kwh",
+        "total_cost_usd",
+        "avg_power_kw",
+        "peak_power_kw",
+        "pct_of_total_consumption"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 2,
+      "title": "Machine Idle Period Energy Waste & Financial Standby Loss",
+      "slug": "machine_idle_waste",
+      "row_count": 16,
+      "columns": [
+        "machine_id",
+        "machine_name",
+        "category",
+        "idle_event_count",
+        "total_idle_hours",
+        "total_idle_wasted_kwh",
+        "total_idle_cost_usd",
+        "idle_energy_pct"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 3,
+      "title": "Daily Total Energy Consumption, Peak Demand, and Effective Tariff Rate",
+      "slug": "daily_energy_consumption",
+      "row_count": 90,
+      "columns": [
+        "reading_date",
+        "day_of_week",
+        "daily_total_kwh",
+        "daily_peak_demand_kw",
+        "daily_avg_power_kw",
+        "daily_total_cost_usd",
+        "avg_cost_per_kwh"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 4,
+      "title": "Top 20 Facility Peak Demand Intervals at Main Incomer (Coincidental Demand)",
+      "slug": "peak_demand_intervals",
+      "row_count": 20,
+      "columns": [
+        "timestamp",
+        "tariff_tier",
+        "rate_per_kwh_usd",
+        "plant_total_demand_kw",
+        "plant_interval_kwh",
+        "interval_cost_usd",
+        "active_meter_count",
+        "feeder_aggregate_demand_kw",
+        "machine_submeters_demand_kw"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 5,
+      "title": "Production Batch Energy Intensity (SEC) by Machine",
+      "slug": "batch_energy_intensity",
+      "row_count": 12,
+      "columns": [
+        "machine_id",
+        "machine_name",
+        "category",
+        "total_batches_run",
+        "total_good_units_produced",
+        "total_production_kwh",
+        "energy_intensity_kwh_per_unit",
+        "cost_per_unit_usd"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 6,
+      "title": "Time-of-Use (TOU) Tariff Cost Distribution & Expense Breakdown",
+      "slug": "tou_tariff_distribution",
+      "row_count": 4,
+      "columns": [
+        "period_type",
+        "rate_per_kwh_usd",
+        "total_reading_intervals",
+        "total_energy_kwh",
+        "total_spend_usd",
+        "pct_of_total_cost",
+        "pct_of_total_kwh"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 7,
+      "title": "Shift-by-Shift Energy Productivity & Cost-Per-Unit Comparison",
+      "slug": "shift_energy_productivity",
+      "row_count": 3,
+      "columns": [
+        "shift_id",
+        "shift_name",
+        "start_time_local",
+        "end_time_local",
+        "batches_processed",
+        "total_units_produced",
+        "machine_production_kwh",
+        "machine_production_cost_usd",
+        "facility_shift_kwh",
+        "facility_shift_cost_usd",
+        "total_shift_kwh",
+        "total_shift_cost_usd",
+        "shift_energy_intensity"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 8,
+      "title": "Abnormal Machine Consumption & Nominal Operating Power Deviation",
+      "slug": "abnormal_machine_consumption",
+      "row_count": 16,
+      "columns": [
+        "machine_id",
+        "machine_name",
+        "category",
+        "rated_power_kw",
+        "total_readings",
+        "max_recorded_kw",
+        "avg_recorded_kw",
+        "nominal_operating_kw",
+        "peak_pct_over_nominal",
+        "avg_pct_deviation_from_nominal"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 9,
+      "title": "Actionable Energy-Saving Interventions by Expected ROI & Payback",
+      "slug": "energy_saving_interventions",
+      "row_count": 10,
+      "columns": [
+        "recommendation_id",
+        "machine_name",
+        "category",
+        "title",
+        "priority",
+        "expected_savings_kwh",
+        "estimated_savings_usd",
+        "capex_usd",
+        "payback_months",
+        "status"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "query_number": 10,
+      "title": "Facility-Wide Cost Reduction Potential & Category Portfolio Summary",
+      "slug": "portfolio_summary",
+      "row_count": 3,
+      "columns": [
+        "priority",
+        "total_recommendations",
+        "total_potential_kwh_saved",
+        "total_potential_annual_savings_usd",
+        "total_implementation_cost_usd",
+        "weighted_payback_months"
+      ],
+      "status": "SUCCESS"
+    }
+  ]
+}

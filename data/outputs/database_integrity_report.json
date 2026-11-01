@@ -1,0 +1,26 @@
+{
+  "database_file": "energy_analytics.db",
+  "file_size_bytes": 63889408,
+  "file_size_mb": 60.93,
+  "integrity_check_result": "ok",
+  "foreign_key_violations_count": 0,
+  "foreign_keys_enforced": true,
+  "journal_mode": "wal",
+  "table_record_counts": {
+    "plants": 1,
+    "meters": 20,
+    "machines": 16,
+    "machine_meter_assignments": 16,
+    "shifts": 3,
+    "tariffs": 4,
+    "weather_observations": 2160,
+    "production_batches": 2000,
+    "energy_readings": 172820,
+    "maintenance_events": 84,
+    "machine_idle_periods": 479,
+    "recommendations": 10,
+    "anomaly_ground_truth": 125
+  },
+  "is_valid": true,
+  "timestamp": "2026-11-01T16:47:47Z"
+}

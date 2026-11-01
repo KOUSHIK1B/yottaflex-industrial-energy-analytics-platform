@@ -1,0 +1,17 @@
+machine_id,machine_name,category,idle_event_count,total_idle_hours,total_idle_wasted_kwh,total_idle_cost_usd,idle_energy_pct
+MCH-PLT-001-012,Central Rotary Screw Compressor #2,ROTARY_SCREW_COMPRESSOR,40,38.5,712.25,87.66,0.59
+MCH-PLT-001-011,Central Rotary Screw Compressor #1,ROTARY_SCREW_COMPRESSOR,33,33,610.5,79.32,0.5
+MCH-PLT-001-014,Water-Cooled Central Chiller #2,CHILLER_PLANT,27,25.8,566.5,75.88,0.29
+MCH-PLT-001-009,Continuous Thermal Curing Oven,INDUSTRIAL_OVEN,32,30.5,549,58.28,0.28
+MCH-PLT-001-013,Water-Cooled Central Chiller #1,CHILLER_PLANT,25,23.3,511.5,42.53,0.26
+MCH-PLT-001-010,Batch Heat Treatment Oven,INDUSTRIAL_OVEN,28,27.3,327,36.44,0.26
+MCH-PLT-001-005,Hydraulic Injection Molder 350T,INJECTION_MOLDING,31,36,306,31.08,0.45
+MCH-PLT-001-008,Heavy Stamping Press 500T,STAMPING_PRESS,33,29.3,204.75,22.52,0.27
+MCH-PLT-001-001,5-Axis CNC Milling Center Alpha,CNC_MILLING,35,39.5,177.75,21.56,0.45
+MCH-PLT-001-002,5-Axis CNC Milling Center Beta,CNC_MILLING,31,33,148.5,13.48,0.41
+MCH-PLT-001-006,Electric Injection Molder 180T,INJECTION_MOLDING,26,28.8,115,12.45,0.27
+MCH-PLT-001-003,High-Speed CNC Lathe Gamma,CNC_MILLING,33,30.8,98.4,10.74,0.39
+MCH-PLT-001-004,High-Speed CNC Lathe Delta,CNC_MILLING,29,29.3,93.6,9.79,0.38
+MCH-PLT-001-007,Precision Injection Molder 120T,INJECTION_MOLDING,27,21.8,76.13,7.89,0.26
+MCH-PLT-001-016,Main Overhead Conveyor Loop,CONVEYOR_SYSTEM,26,28.5,57,7.04,0.38
+MCH-PLT-001-015,Automated 6-Axis Assembly Cell,AUTOMATED_ASSEMBLY_ROBOT,23,21,52.5,7.12,0.28
